@@ -2,288 +2,87 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>My blog</title>
-<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+<title>My Blog</title>
 <style>
-	html {
-		margin: 0;
-		padding: 0;
-	}
 	body {
-		font-family: "Handlee", cursive;
-		font-size: 13pt;
-		background-color: #efefef;
-		padding: 10px;
+		background-color: #edeef0;
+		font-family: 'Source Sans Pro', sans-serif;
+		padding: 0;
 		margin: 0;
-	}
-	h1 {
-		font-size: 15pt;
-		color: #20bcd5;
-		text-align: center;
-		padding: 18px 0 18px 0;
-		margin: 0 0 10px 0;
-	}
-	h1 span {
-		border: 4px dashed #20bcd5;
-		padding: 10px;
 	}
 	p {
-		padding: 0;
-		margin: 0;
+		font-size: 13pt;
+		text-indent: 20px;
 	}
-	.img-circle {
-		border: 3px solid white;
-		border-radius: 50%;
-	}
-	.section {
-		background-color: #fff;
-		padding: 15px;
-		margin-bottom: 10px;
-		border-radius: 10px;
-	}
-	#header {
-		background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+	.head {
+	    position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 120;
+        direction: ltr;
+		height: 160px;
+		padding: 10px;
+		background-image: url(https://pp.userapi.com/c830708/v830708486/a6b5a/jKb4BbixZ10.jpg);
 		background-size: cover;
 	}
-	#header img {
+	.head img {
+		height: 100px;
+		border-radius: 50%;
 		display: block;
-		width: 80px;
-		height: 80px;
 		margin: auto;
 	}
-	#header p {
-		font-size: 25pt;
+	.block {
+		background-color: white;
+		padding: 10px;
+		margin: 10px 15%;
+		border-radius: 5px;
+	}
+	h1 {
+		text-align: center;
+		color: #A618B9;
+	}
+	span {
+		border: #A618B9 dashed 3px;
+		padding: 5px;
+	}
+    #header p {
+		text-align: center;
+		font-size: 20pt;
+		margin: 0;
+		padding-top: 15px;
+		padding-right: 30px;
+		font-weight: bold;
 		color: #3b464c;
-		padding-top: 5px;
-		margin: 0;
-		font-weight: 0;
-		text-align: center;
-	}
-	.quote {
-		font-size: 12pt;
-		text-align: right;
-		margin-top: 10px;
-	}
-	table {
-		width: 100%;
-	}
-	table, th, td {
-		border: 2px solid #cecece;
-		border-collapse: collapse;
-		text-align: center;
-		table-layout: fixed;
-	}
-	.selected {
-		background-color: #f36;
-		font-weight: bold;
-		color: white;
-	}
-	Ii {
-		margin-bottom: 15px;
-		font-weight: bold;
-	}
-	progress {
-		width: 100%;
-		height: 20px;
-		color: #3fb6b2;
-		background: #efefef;
-	}
-	progress::-webkit-progress-bar {
-		background: #efefef;
-	}
-	progress::-webkit-progress-value {
-		background: #3fb6b2;
-	}
-	progress::-moz-progress-bar {
-		color: #3fb6b2;
-		background: #efefef;
-	}
-	iframe, audio {
-		display: block;
-		margin: 0 auto;
-		border: 3px solid #3fb6b2;
-	}
-	hr {
-		border: 0;
-		height: 1px;
-		background: #f36f48;
-	}
-	form {
-		text-align: center;
-		margin-top: 0;
-	}
-	.submit {
-		background-color: #3fb6b2;
-		padding: 12px 45px;
-		border-radius: 5px;
-		cursor: pointer;
-		color: #ffffff;
-		border: none;
-		outline: none;
-		margin: 0;
-		font-weight: bold;
-	}
-	.submit:fover {
-		background-color: #43a09d;
-	}
-	textarea {
-		height: 100px;
-	}
-	input, textarea {
-		margin-bottom: 10px;
-		font-size: 11pt;
-		padding: 15px 10px 10px;
-		border: 1px solid #cecece;
-		background-color: #efefef;
-		color: #787575;
-		border-radius: 5px;
-		width: 70%;
-		outline: none;
-	}
-	.face {
-		transform: scale(0.4);
-		margin: 0 auto;
-		display: block;
-		margin-top: -35px;
-		margin-bottom: -25px;
-	}
-	#contacts img {
-		height: 50px;
-		width: 50px;
-		margin-left: 7px;
-		margin-right: 7px;
-	}
-	#contacts a {
-		text-decoration: none;
-	}
-	#contacts img:hover {
-		opacity: 0.8;
-	}
-	#contacts {
-		text-align: center;
 	}
 	.copyright {
-		font-size: 8pt;
 		text-align: right;
-		padding: 5px ;
+		padding: none;
+		font-size: 8pt;
 		color: grey;
 	}
 </style>
 </head>
 
 <body>
-<div id="header" class="section">
-	<img alt="" class="img-circle" src="https://code.sololearn.com/Icons/Avatars/0.jpg">
-	<p>Maks Lebedev</p>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<div id="header" class="head">
+<img src="https://pp.userapi.com/c841024/v841024156/6cca1/7j6Jg1eqSG4.jpg">
+<p><strong>Лебедев Максим</strong></p>
+</div><br>
+
+<div class="block" style="margin: 170px 15% 10px 15%">
+	<h1><span>Инфо о блоге</span></h1>
+	<p>Hello, World! Я тут сайты учусь писать и решил сделать для начала такой недоблог, первое время я буду тренироваться именно на нем, поэтому он периодически будет обновляться, а так как у меня есть ещё много идей из того, что можно сделать, обновляться он будет, скорее всего, ещё длительное время, так что если вдруг это кому интересно, то можете сюда иногда заходить</p>
+	<p>Так же, возможно, я сюда буду выкладывать что-нибудь из жизни, например какие-нибудь фоточки, поэтому если вдруг вам интересна моя жизнь, то тоже можете сюда периодически заходить</p>
+	<p>Предложения по улучшению моего недоблога принимаются в лс в вк</p>
+	<p>Вообще блог находиться в состоянии БЕТА и не думаю, что в будущем, когда я закончу на нем тренироваться, он сохранится, скорее всего я на нем реализую всё-то, что хочу и заброшу его, но это не точно...</p>
+	<p>Все картинки, что здесь есть, находятся на серверах ВК, и если он ляжет, то все картинки пропадут. Надо будет выбрать место для хранения по-лучше...</p>
 </div>
-<div class="section">
-	<h1><span>About Me</span></h1>
-	<p>
-		Hello! i'm <strong>Maks</strong>. I want to learn HTML, JS, CSS and more...
-	</p>
-	<p>
-		<strong>Good luck me!</strong>
-	</p>
-	<p class="quote">I LOVE ALL!!!</p>
-</div>
-<div class="section">
-	<h1><span>My Coding Schedule</span></h1>
-	<table>
-		<tr>
-			<th>Day</th>
-			<th>Mon</th>
-			<th>Tue</th>
-			<th>Wed</th>
-			<th>Thu</th>
-			<th>Fri</th>
-		</tr>
-		<tr>
-			<td>8:00-8:30</td>
-			<td class="selected">Learn</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>9:00-10:00</td>
-			<td></td>
-			<td class="selected">Practice</td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>1:00-1:30</td>
-			<td></td>
-			<td></td>
-			<td class="selected">Play</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>3:45-5:00</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td class="selected">Code</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>6:00-6:15</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td class="selected">Discuss</td>
-		</tr>
-	</table>
-</div>
-<div class="section">
-	<h1><span>My Skills</span></h1>
-	<ul>
-		<li>HTML <br>
-		<progress min="0" max="100" value="40"></progress>			
-		</li>
-		<li>JavaScript <br>
-		<progress min="0" max="100" value="60"></progress>			
-		</li>
-		<li>CSS <br>
-		<progress min="0" max="100" value="30"></progress>			
-		</li>
-	</ul>
-</div>
-<div class="section">
-	<h1><span>My Media</span></h1>
-	<iframe src="https://vk.com/video_ext.php?oid=60028764&id=456239052&hash=58ce2001f690d401&hd=2" width="853" height="480" frameborder="0" allowfullscreen></iframe>
-</div>
-<div class="section">
-	<h1><span>Contact Me</span></h1>
-	<svg class="face" height="100" width="100">
-		<circle cx="50" cy="50" r="50" fill="#FDD835"/>
-		<circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
-		<circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
-		<circle cx="30" cy="30" r="5" fill="#000000"/>
-		<circle cx="70" cy="30" r="5" fill="#000000"/>
-		<path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none"/>
-	</svg>
-	<form>
-		<input name="name" placeholder="Name" type="text" required><br>
-		<input name="email" placeholder="Email" type="email" required><br>
-		<textarea name="message" placeholder="Message" required></textarea>
-		<input type="submit" value="SEND" class="submit">
-	</form>
-</div>
-<div class="section" id="contacts">
-	<h1><span>Follow Me</span></h1>
-	<div>
-		<a href="https://vk.com/maks_cyber_bastard" target="_blank">
-			<img alt="VK" src="https://pp.userapi.com/c841024/v841024156/6cca1/7j6Jg1eqSG4.jpg"/>
-		</a>
-	</div>
-</div>
+
 <div class="copyright">
-	&copy; 2018 My Blog. All rights reserved.
+	&copy; 2018 Blog by Maxim Lebedev. All rights reserved.<br>
+	Beta V 1.0
 </div>
 </body>
 </html>
