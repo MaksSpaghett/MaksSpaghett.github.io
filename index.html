@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>My Blog</title>
+<link rel="shortcut icon" href="https://pp.userapi.com/c841024/v841024156/6cca1/7j6Jg1eqSG4.jpg">
 <style>
 	body {
 		background-color: #edeef0;
@@ -37,12 +38,13 @@
 		padding: 10px;
 		margin: 10px 15%;
 		border-radius: 5px;
+		border: 1px solid #4a7bb1;
 	}
 	h1 {
 		text-align: center;
 		color: #A618B9;
 	}
-	span {
+	h1 span {
 		border: #A618B9 dashed 3px;
 		padding: 5px;
 	}
@@ -54,6 +56,25 @@
 		padding-right: 30px;
 		font-weight: bold;
 		color: #3b464c;
+	}
+	#social_tabel {
+		width: 100%;
+	}
+	.link_soc {
+	
+		display: block;
+		margin: auto;
+		height: 70px;
+		width: 70px;	
+	}
+	.video {
+		display: block;
+		margin: auto;
+		border: #4a7bb1 solid 3px;
+	}
+	progress {
+		width: 100%;
+		height: 20px;
 	}
 	.copyright {
 		text-align: right;
@@ -73,13 +94,51 @@
 
 <div class="block" style="margin: 170px 15% 10px 15%">
 	<h1><span>Инфо о блоге</span></h1>
-	<p>Hello, World! Я тут сайты учусь писать и решил сделать для начала такой недоблог, первое время я буду тренироваться именно на нем, поэтому он периодически будет обновляться, а так как у меня есть ещё много идей из того, что можно сделать, обновляться он будет, скорее всего, ещё длительное время, так что если вдруг это кому интересно, то можете сюда иногда заходить</p>
-	<p>Так же, возможно, я сюда буду выкладывать что-нибудь из жизни, например какие-нибудь фоточки, поэтому если вдруг вам интересна моя жизнь, то тоже можете сюда периодически заходить</p>
-	<p>Предложения по улучшению моего недоблога принимаются в лс в вк</p>
-	<p>Вообще блог находиться в состоянии БЕТА и не думаю, что в будущем, когда я закончу на нем тренироваться, он сохранится, скорее всего я на нем реализую всё-то, что хочу и заброшу его, но это не точно...</p>
+	<p>Hello, World! Я тут сайты учусь писать и решил сделать для начала такой недоблог, первое время я буду тренироваться именно на нем, поэтому он периодически будет обновляться, а так как у меня есть ещё много идей из того, что можно сделать, обновляться он будет, скорее всего, ещё длительное время, так что если вдруг это кому интересно, то можете сюда иногда заходить.</p>
+	<p>Так же, возможно, я сюда буду выкладывать что-нибудь из жизни, например какие-нибудь фоточки, поэтому если вдруг вам интересна моя жизнь, то тоже можете сюда периодически заходить.</p>
+	<p>Предложения по улучшению моего недоблога принимаются в лс в вк.</p>
+	<p>Вообще блог находиться в состоянии БЕТА и не думаю, что в будущем, когда я закончу на нем тренироваться, он будет работать, скорее всего, я на нем реализую всё-то, что хочу, и заброшу его, но это не точно...</p>
 	<p>Все картинки, что здесь есть, находятся на серверах ВК, и если он ляжет, то все картинки пропадут. Надо будет выбрать место для хранения по-лучше...</p>
 </div>
 
+<div class="block">
+	<h1><span>Инфо обо мне</span></h1>
+	<p>Привет, меня зовут Макс, мне 16 лет, учусь в 10 классе и мечтаю стать в будущем программистом или веб-разработчиком.</p>
+	<p>Увлекаюсь программированием, компьютерными играми, любимая игра: DOTA 2 (хотя я в ней рак).</p>
+	<p>Так же в свободное время люблю гулять, слушать музыку или смотреть фильмы.</p>
+</div>
+	
+<div class="block">
+	<h1><span>My Skills</span></h1>
+	<p>Список того, что я сейчас изучаю (статистика примерная):</p>
+	<ul type="square">
+		<li>HTML</li>
+		<progress max="100" min="0" value="20"></progress>
+		<li>JavaScript</li>
+		<progress max="100" min="0" value="50"></progress>
+		<li>CSS</li>
+		<progress max="100" min="0" value="20"></progress>
+		<li>C#</li>
+		<progress max="100" min="0" value="15"></progress>
+	</ul>
+</div>
+	
+<div class="block">
+	<h1><span>Видосы</span></h1>
+	<p>Я сильно хотел вставить сюда какой-нибудь видос, но не знал какой, поэтому решил вставить пародию на "Дико, например" от поцанов с нашей школы. Почему бы и нет.</p>
+	<iframe class="video" src="https://vk.com/video_ext.php?oid=299129213&id=456239043&hash=77718de7f04cd9ce&hd=2" width="853" height="480" frameborder="0" allowfullscreen></iframe>
+</div>
+	
+<div class="block">
+	<h1><span>Follow Me</span></h1>
+	<table id="social_tabel">
+		<tr>
+			<th><a href="https://vk.com/maks_cyber_bastard" target="_blank" class="link_soc"><img class="link_soc" src="https://pp.userapi.com/c840328/v840328016/6864a/C6y6jkzZncg.jpg"></a></th>
+			<th><a href="https://www.instagram.com/maks_cyber_bastard/" target="_blank" class="link_soc"><img class="link_soc" src="https://psv4.userapi.com/c834600/u60028764/docs/d6/224c3868e642/2000px-Instagram_logo_2016_svg.png?extra=pa4zlPBvkMIIgUFvbFdO2HoEGP0EnfcEIX-rzMUQ30aK0_XJF5xBAxQi9GNob9I0MIFeHI_qVfbCydVYtAEp5KQD52mjcChGYQ60umcW-1_TYcQzywoyPcd84Hq4yRb9r3J7xBaWs8A"></a></th>
+		</tr>
+	</table>
+</div>
+	
 <div class="copyright">
 	&copy; 2018 Blog by Maxim Lebedev. All rights reserved.<br>
 	Beta V 1.0
